@@ -1,0 +1,22 @@
+name: fraud-ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip:
+      - flaml[automl]==2.3.2
+      - imbalanced-learn==0.12.4
+      - joblib==1.4.2
+      - pyyaml==6.0.2
+      - shap
+      - fastapi
+      - uvicorn[standard]
+      - scipy

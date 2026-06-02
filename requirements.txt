@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+flaml[automl]==2.3.2
+imbalanced-learn==0.12.4
+joblib==1.4.2
+pyyaml==6.0.2
+shap
+fastapi
+uvicorn[standard]
+scipy
